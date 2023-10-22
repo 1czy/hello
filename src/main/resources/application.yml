@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /hello
+spring:
+  application:
+    name: hello
+  thymeleaf:
+    #开发环境禁用
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: UTF-8
+    mode: HTML
